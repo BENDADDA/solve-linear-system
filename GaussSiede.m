@@ -22,6 +22,6 @@ try
     linsolve(A,B)
     disp('errors:');
     x-linsolve(A,B)
-catch 
-    disp('error');
+catch e
+    disp(e);
 end
