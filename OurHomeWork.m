@@ -36,6 +36,6 @@ try
         X(i)=(W(i)-sum)/Lt(i,i);
     end
     X
-catch 
-    disp('error');
+catch e
+    disp(e);
 end
